@@ -7,13 +7,15 @@
     --main-color-heavy: #321f18;
     --main-color-transparent: #321f1887;
     --second-color: #f2ce57;
-    --third-color: #fbfdfa;
-    --black: #202124;
+    --deafult-white: #fbfdfa;
+    --default-black: #202124;
+    
 }
 
-*{
+html{
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     color: var(--black);
+    font-size: 1.2rem;
 }
 
 h1{font-size: 3rem;}

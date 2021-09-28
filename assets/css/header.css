@@ -1,0 +1,22 @@
+#header-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-page__unored-list{
+    display: flex;
+}
+.header-page__list-element{
+    margin-left: 1rem;
+}
+.header-page__anchor{
+    color: var(--default-black);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.header-page__logo{
+    width: 7rem;
+    
+}
