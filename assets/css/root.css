@@ -8,11 +8,14 @@
     --main-color-transparent: #321f1887;
     --second-color: #f2ce57;
     --third-color: #fbfdfa;
+    --black: #202124;
 }
 
-h1,h2,h3,h4{
-    font-family: Roboto,'Times New Roman', Times, serif;
+*{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--black);
 }
+
 h1{font-size: 3rem;}
 h2{font-size: 2.5rem;}
 h3{font-size: 2rem;}
