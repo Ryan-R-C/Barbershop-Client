@@ -9,7 +9,10 @@
     --second-color: #f2ce57;
     --deafult-white: #fbfdfa;
     --default-black: #202124;
-    
+    --small-font-size: 1rem;   
+    --medium-font-size: 1.5rem;
+    --large-font-size: 2rem;
+    --extra-large-font-size: 3rem;   
 }
 
 html{
@@ -18,7 +21,7 @@ html{
     font-size: 1.2rem;
 }
 
-h1{font-size: 3rem;}
-h2{font-size: 2.5rem;}
-h3{font-size: 2rem;}
-h4{font-size: 1.5rem;}
+h1{font-size: var(--extra-large-font-size)}
+h2{font-size: var(--large-font-size)}
+h3{font-size: var(--medium-font-size)}
+h4{font-size: var(--small-font-size)}
