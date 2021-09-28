@@ -43,4 +43,7 @@
     .header-page__holder-logo{
         flex-direction: row;
     }
+    .social-media{
+        flex-direction: row;
+    }
 }
