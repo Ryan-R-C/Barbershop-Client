@@ -17,7 +17,7 @@
     padding: 1.7rem 1rem;
 }
 .about__section{
-    margin: 5rem 0;
+    margin: 5rem auto;
     width: 90%;
 }
 .about__paragraph{
@@ -26,4 +26,14 @@
 }
 .about__apresentation{
     margin-bottom: 1.7rem;
+}
+@media (min-width: 768px) {
+    .about__section{
+        width: 50%;
+    }    
+}
+@media (min-width: 1024px){
+    .about__section{
+        width: 33%;
+    }   
 }
