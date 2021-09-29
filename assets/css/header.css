@@ -4,7 +4,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-    vertical-align: middle;  
+    vertical-align: middle;
+    background-attachment: fixed;
+    position: relative;
+    margin: .4rem;
 }
 #header-page{
     display: flex;
@@ -40,12 +43,17 @@
 }
 #header-page__title{
     display: inline-block;
-    margin: 0 2rem;
     width: 30%; 
     text-align: justify;
     font-weight: bold;
+    margin: .4rem;
+    position: absolute;
+    transform: translate(7%, 10%);
 }
 @media (min-width: 768px) {
+    #header{
+        margin: .7rem;
+    }
     .header-page, .header-page__logo, #header-page{
         flex-direction: column;
         flex-direction: row;   
@@ -55,6 +63,9 @@
     }
 }
 @media (min-width: 1024px){
+    #header{
+        margin: 1rem
+    }
     .header-page__holder-logo{
         flex-direction: row;
     }
