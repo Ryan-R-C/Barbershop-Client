@@ -11,13 +11,15 @@
     font-weight: bold;
 }
 .justify{
-    text-align: justify;
+        text-align: justify;
 }
 .about__container{
     padding: 1.7rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .about__section{
-    margin: 5rem auto;
+    margin: 3rem auto;
     width: 90%;
 }
 .about__paragraph{
