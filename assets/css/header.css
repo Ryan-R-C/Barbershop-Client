@@ -1,20 +1,19 @@
 #header{
-    height: 100vh;
-    background-image: url("https://scontent.fvcp4-1.fna.fbcdn.net/v/t1.6435-9/p526x296/243659195_667004580941109_3808437290987580013_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=IMUcxNkobR4AX8I3oJD&_nc_ht=scontent.fvcp4-1.fna&oh=519e2b6d9f086b5354218c5df8e02ebb&oe=6177C8CC");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    vertical-align: middle;
+    background: url("https://scontent.fvcp4-1.fna.fbcdn.net/v/t1.6435-9/p526x296/243659195_667004580941109_3808437290987580013_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=IMUcxNkobR4AX8I3oJD&_nc_ht=scontent.fvcp4-1.fna&oh=519e2b6d9f086b5354218c5df8e02ebb&oe=6177C8CC") no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    min-height: 400px;
     position: relative;
     margin: .4rem;
     min-height: 650px;
+    vertical-align: middle;
 }
 #header-page{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
 .header-page__unored-list,
  .header-page__holder,
@@ -35,28 +34,27 @@
 }
 .header-page__anchor{
     color: var(--default-black);
-    text-decoration: none;
-    font-weight: bold;
     font-size: var(--small-font-size);
+    font-weight: bold;
+    text-decoration: none;
 }
 .header-page__logo{
     width: 7rem;
 }
 #header-page__title{
     display: inline-block;
-    width: 35%; 
-    text-align: justify;
     font-weight: bold;
     margin: .4rem;
     position: absolute;
     transform: translate(7%, 15%);
+    text-align: justify;
+    width: 35%; 
 }
 @media (min-width: 768px) {
     #header{
         margin: .7rem;
     }
     .header-page, .header-page__logo, #header-page{
-        flex-direction: column;
         flex-direction: row;   
     }
     .social-media{

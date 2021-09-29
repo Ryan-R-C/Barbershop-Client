@@ -1,15 +1,4 @@
 body{
-    padding: .4rem;
     max-width: 100%;
     background-color: var(--deafult-white);
-}
-@media (min-width: 768px) {
-    body{
-        padding: .7rem;
-    }
-}
-@media (min-width: 1024px){
-    body{
-        padding: 1rem;
-    }
 }
