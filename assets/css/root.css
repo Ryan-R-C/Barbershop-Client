@@ -5,8 +5,8 @@
     --main-color: #4a2e23;
     --main-color-light: #97654D;
     --main-color-heavy: #321f18;
-    --main-color-transparent: #321f1887;
-    --second-color: #f2ce57;
+    --main-color-transparent: #321f18b3;
+    --second-color: #fed54d;
     --deafult-white: #fbfdfa;
     --default-black: #202124;
     --small-font-size: 1rem;   
@@ -17,9 +17,14 @@
 
 html{
     color: var(--black);
+    scroll-behavior: smooth;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
 }
+span{
+    color: var(--second-color);
+}
+
 h1{font-size: var(--large-font-size )}
 h2{font-size: var(--medium-font-size )}
 h3{font-size: var(--small-font-size)}
@@ -30,4 +35,12 @@ h1{font-size: var(--extra-large-font-size)}
 h2{font-size: var(--large-font-size)}
 h3{font-size: var(--medium-font-size)}
 h4{font-size: var(--small-font-size)}
+}
+
+a{
+    text-decoration: none;
+    color: var(--default-black);
+}
+.anchor-tag-white{
+    color: var(--deafult-white);
 }

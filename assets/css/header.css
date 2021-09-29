@@ -6,6 +6,7 @@
     min-height: 400px;
     position: relative;
     margin: .4rem;
+    margin-bottom: 0;
     min-height: 650px;
     vertical-align: middle;
 }
@@ -16,8 +17,8 @@
     justify-content: space-around;
 }
 .header-page__unored-list,
- .header-page__holder,
- .header-page__holder-logo{
+.header-page__holder,
+.header-page__holder-logo{
     align-items: center;
     display: flex;
 }
@@ -48,11 +49,12 @@
     position: absolute;
     transform: translate(7%, 15%);
     text-align: justify;
-    width: 35%; 
+    width: 35%;
 }
 @media (min-width: 768px) {
     #header{
         margin: .7rem;
+        margin-bottom: 0;
     }
     .header-page, .header-page__logo, #header-page{
         flex-direction: row;   
@@ -63,7 +65,8 @@
 }
 @media (min-width: 1024px){
     #header{
-        margin: 1rem
+        margin: 1rem;
+        margin-bottom: 0;
     }
     .header-page__holder-logo{
         flex-direction: row;

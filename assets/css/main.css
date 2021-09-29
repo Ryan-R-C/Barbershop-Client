@@ -1,0 +1,29 @@
+#about{
+    background-color: var(--main-color);
+    box-sizing: border-box;
+    color: var(--deafult-white);
+    text-align: center;
+    width: 100%;
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.598);
+    position: absolute;
+}
+.bold{
+    font-weight: bold;
+}
+.justify{
+    text-align: justify;
+}
+.about__container{
+    padding: 1.7rem 1rem;
+}
+.about__section{
+    margin: 5rem 0;
+    width: 90%;
+}
+.about__paragraph{
+    margin: .2rem;
+    line-height: 1.5;
+}
+.about__apresentation{
+    margin-bottom: 1.7rem;
+}
