@@ -1,3 +1,11 @@
+#header{
+    height: 100vh;
+    background-image: url("https://scontent.fvcp4-1.fna.fbcdn.net/v/t1.6435-9/p526x296/243659195_667004580941109_3808437290987580013_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=IMUcxNkobR4AX8I3oJD&_nc_ht=scontent.fvcp4-1.fna&oh=519e2b6d9f086b5354218c5df8e02ebb&oe=6177C8CC");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    vertical-align: middle;  
+}
 #header-page{
     display: flex;
     flex-direction: column;
@@ -29,6 +37,13 @@
 }
 .header-page__logo{
     width: 7rem;
+}
+#header-page__title{
+    display: inline-block;
+    margin: 0 2rem;
+    width: 30%; 
+    text-align: justify;
+    font-weight: bold;
 }
 @media (min-width: 768px) {
     .header-page, .header-page__logo, #header-page{
