@@ -8,6 +8,7 @@
     background-attachment: fixed;
     position: relative;
     margin: .4rem;
+    min-height: 650px;
 }
 #header-page{
     display: flex;
@@ -48,7 +49,7 @@
     font-weight: bold;
     margin: .4rem;
     position: absolute;
-    transform: translate(7%, 10%);
+    transform: translate(7%, 15%);
 }
 @media (min-width: 768px) {
     #header{
