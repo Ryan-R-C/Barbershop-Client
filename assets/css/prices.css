@@ -1,6 +1,51 @@
 #prices{
+    margin: 0 .4rem;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
-/*.prices__header2{}
-.pricess__header3{}
-.prices__pragraph{}*/
+#prices::before{
+    background: url("https://images.pexels.com/photos/3992864/pexels-photo-3992864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    content: "";
+    opacity: 0.4;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;   
+}
+.prices__container{
+    padding: 1.7rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prices__section{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 90%;
+}
+.prices__header2, .prices__header3, .prices__pragraph{
+    text-align: center;
+}
+.prices__header2{
+    margin-bottom: 1.5rem;
+}
+.prices__header3{
+    margin-bottom: 1rem;
+} 
+.prices__pragraph{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .prices__section{
+        width: 50%;
+    }    
+}
+@media (min-width: 1024px){
+    .prices__section{
+        width: 33%;
+    }   
+}

@@ -22,6 +22,7 @@
     margin: 0  auto;
     padding: 3rem;
     width: 90%;
+    box-sizing: border-box;
 }
 .about__paragraph{
     margin: .2rem;
