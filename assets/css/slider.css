@@ -16,8 +16,9 @@
 .carousel-slide__carousel-items{
     min-width: 100%;
 }
-.carousel-slide__carousel-items{
+.carousel-items__image{
     object-fit: cover;
+    width: 100%;
 }
 .carousel-container__carousel-slide{
     display: flex;
