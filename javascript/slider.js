@@ -6,7 +6,7 @@ const prevBtn = document.querySelector('#prevBtn')
 const nextBtn = document.querySelector('#nextBtn')
 
 counter = 1
-const size = carouselImages[0].clientWidth;
+let size = carouselImages[0].clientWidth;
 
 carouselSlide.style.transform = `translateX(${-size * counter}px)`
 //btn listeners
@@ -36,3 +36,8 @@ carouselSlide.addEventListener('transitionend', ()=> {
     }
 })
 
+window.addEventListener('resize', () => {
+    carouselSlide.style.transition = "none";
+    size = carouselImages[0].clientWidth;
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+})
