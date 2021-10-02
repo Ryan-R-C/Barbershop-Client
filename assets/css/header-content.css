@@ -34,10 +34,12 @@
     display: inline-block;
     font-weight: bold;
     margin: .4rem;
-    position: absolute;
-    transform: translate(7%, 15%);
+    transform: translate(15%, 250%);
     text-align: justify;
     width: 35%;
+}
+.header-page__holder{
+    display: none;
 }
 @media (min-width: 768px) {
     #header{
@@ -47,8 +49,14 @@
     .header-page, .header-page__logo, #header-page{
         flex-direction: row;   
     }
+    .header-page__holder{
+        display: flex;
+    }
     .social-media{
         flex-direction: column;
+    }
+    #header-page__title{
+        transform: translate(7%, 30%);
     }
 }
 @media (min-width: 1024px){

@@ -9,4 +9,6 @@
     margin-bottom: 0;
     min-height: 650px;
     vertical-align: middle;
+    display: flex;
+    flex-direction: column;
 }
