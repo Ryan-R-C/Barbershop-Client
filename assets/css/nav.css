@@ -1,0 +1,29 @@
+#nav-bar{
+    background-color: var(--main-color-transparent);
+    position: relative;
+    color: var(--deafult-white);
+    height: 8vh;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    justify-content: center;
+    top: 0.4px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.list-el__link{
+    color: var(--deafult-white);
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    #nav-bar{
+        display: none;
+    }
+    
+}

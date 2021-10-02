@@ -1,0 +1,39 @@
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger .burger__line1,
+.burger .burger__line2,
+.burger .burger__line3{
+    background-color: var(--deafult-white);
+    margin: .25rem;
+    height: .25rem;
+    width: 1.5rem;
+}
+
+
+@media (max-width: 768px){
+    .burger{
+        display: block;
+    }
+    .responsive-navbar__nav-list{
+        align-items: center;
+        display: flex;
+        position: absolute;
+        right: 0;
+        height: 92vh; 
+        top: calc(8vh + 2rem);
+        background-color: var(--main-color-transparent);
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
+    }
+    .responsive-navbar__nav-list__list-el{
+        margin: 0;
+    }
+    .nav-list--active{
+        transform: translateX(0%);
+    }
+}
