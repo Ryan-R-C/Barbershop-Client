@@ -18,6 +18,10 @@
     padding: 3rem;
     width: 90%;
 }
+.height-25{
+    height: 25%;
+    text-align: center;
+}
 .prices__header2, .prices__header3, .prices__pragraph{
     text-align: center;
 }
