@@ -1,20 +1,12 @@
 #prices{
     margin: 0 .4rem;
-    position: relative;
     display: flex;
-    flex-wrap: wrap;
-}
-#prices::before{
-    background: url("https://images.pexels.com/photos/3992864/pexels-photo-3992864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat;
+    flex-wrap: wrap;    
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/3992864/pexels-photo-3992864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
     background-attachment: fixed;
     background-size: cover;
-    content: "";
-    opacity: 0.4;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    z-index: -1;   
 }
+
 .prices__container{
     padding: 1.7rem 1rem;
     display: flex;
