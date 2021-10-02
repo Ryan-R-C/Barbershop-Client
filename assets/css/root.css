@@ -6,7 +6,7 @@
     --main-color-light: #97654D;
     --main-color-heavy: #321f18;
     --main-color-transparent: #321f18b3;
-    --second-color: #fed54d;
+    --second-color: #f9bf00;
     --deafult-white: #fbfdfa;
     --default-black: #000000;
     --small-font-size: 1rem;   
@@ -24,6 +24,7 @@ html{
 }
 span{
     color: var(--second-color);
+    text-shadow: 2px 3px #000000 ;
 }
 
 h1{font-size: var(--large-font-size )}
