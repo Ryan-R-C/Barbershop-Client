@@ -12,9 +12,18 @@
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .burger{
         display: block;
+    }
+    #nav-bar{
+        align-items: initial;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        margin: 0 auto;
+        top: 0;
+        z-index: 99;
     }
     .responsive-navbar__nav-list{
         align-items: center;
@@ -22,7 +31,7 @@
         position: absolute;
         right: 0;
         height: calc(92vh - 2rem); 
-        top: calc(8vh + 2rem);
+        top: calc(8vh + 2rem );
         background-color: var(--main-color-transparent);
         flex-direction: column;
         justify-content: space-around;
