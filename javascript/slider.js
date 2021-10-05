@@ -1,4 +1,5 @@
-const carouselSlide = document.querySelector(".carousel-container__carousel-slide")
+( () =>
+    {const carouselSlide = document.querySelector(".carousel-container__carousel-slide")
 const carouselImages = document.querySelectorAll(".carousel-slide__carousel-items")
 console.log(carouselImages[0])
 //btn
@@ -40,4 +41,4 @@ window.addEventListener('resize', () => {
     carouselSlide.style.transition = "none";
     size = carouselImages[0].clientWidth;
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-})
+})}) ()
