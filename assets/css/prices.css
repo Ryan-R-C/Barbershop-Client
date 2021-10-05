@@ -36,6 +36,12 @@
     font-weight: bold;
 }
 @media (min-width: 768px) {
+    #prices{
+        background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://scontent.fvcp4-1.fna.fbcdn.net/v/t1.6435-9/244559701_670928097215424_6536318262669395254_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=oQxcJMu94WcAX9XVwin&_nc_ht=scontent.fvcp4-1.fna&oh=dfb3bee84a5ab4252ebe1f5f34342422&oe=6180A5D1");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
     .prices__section{
         width: 50%;
     }    
