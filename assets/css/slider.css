@@ -15,9 +15,9 @@
 }
 .carousel-slide__carousel-items{
     min-width: 100%;
+    object-position: center;    
 }
 .carousel-items__image{
-    object-fit: cover;
     width: 100%;
 }
 .carousel-container__carousel-slide{
