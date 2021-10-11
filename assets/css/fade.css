@@ -5,5 +5,5 @@
 }
 .intro-active{
     opacity: 1;
-    transform: translateY(-.2rem);
+    transform: translateY(0);
 }
