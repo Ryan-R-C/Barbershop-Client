@@ -1,6 +1,9 @@
 /*Import Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('http://fonts.cdnfonts.com/css/medula-one');
+                
+
 :root{
     --main-color: #4a2e23;
     --main-color-light: #97654D;
@@ -27,17 +30,14 @@ span{
     text-shadow: 2px 3px #000000 ;
 }
 
-h1{font-size: var(--large-font-size )}
-h2{font-size: var(--medium-font-size )}
-h3{font-size: var(--small-font-size)}
-h4{font-size: var(--small-font-size )}
+h1,h2,h3,h4{
+font-family: 'Medula One', sans-serif;}
+                                                
 
-@media (min-width: 768px) {
 h1{font-size: var(--extra-large-font-size)}
 h2{font-size: var(--large-font-size)}
 h3{font-size: var(--medium-font-size)}
 h4{font-size: var(--small-font-size)}
-}
 
 a{
     text-decoration: none;
