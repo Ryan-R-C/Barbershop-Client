@@ -32,8 +32,8 @@
         display: flex;
         position: absolute;
         right: 0;
-        height: calc(92vh - 2rem); 
-        top: calc(8vh + 2rem );
+        height: calc(92vh - 3rem); 
+        top: calc(8vh + 3rem );
         background-color: var(--main-color-transparent);
         flex-direction: column;
         justify-content: space-around;
