@@ -2,7 +2,7 @@
     margin: 0 .4rem;
     display: flex;
     flex-wrap: wrap;    
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/3992864/pexels-photo-3992864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://i.ibb.co/3TnxbXS/Whats-App-Image-2021-10-14-at-13-49-28-20.jpg");
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -16,6 +16,7 @@
 .prices__section{
     box-sizing: border-box;
     margin: 0 auto;
+    overflow-wrap: break-word;
     padding: 3rem;
     padding-bottom: 0;
     width: 90%;
@@ -30,7 +31,7 @@
     text-align: center;
 }
 .height-25--dont-break{
-    margin-bottom: 3rem; 
+    margin-bottom: 4rem; 
 }
 .prices__header2, .prices__header3, .prices__pragraph{
     text-align: center;
@@ -51,7 +52,6 @@
 }
 @media (min-width: 768px) {
     #prices{
-        background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://scontent.fvcp4-1.fna.fbcdn.net/v/t1.6435-9/244559701_670928097215424_6536318262669395254_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=oQxcJMu94WcAX9XVwin&_nc_ht=scontent.fvcp4-1.fna&oh=dfb3bee84a5ab4252ebe1f5f34342422&oe=6180A5D1");
         background-attachment: fixed;
         background-position: center;
         background-size: cover;

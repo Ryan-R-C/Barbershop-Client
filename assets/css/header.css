@@ -1,5 +1,5 @@
 #header{
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/4969842/pexels-photo-4969842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://i.ibb.co/7vLFMsG/a-Copia.jpg") no-repeat;
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
@@ -14,7 +14,7 @@
 }
 @media (min-width: 768px) {
     #header{
-        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://scontent.fvcp4-1.fna.fbcdn.net/v/t1.6435-9/244642769_670928257215408_4149602735688485348_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=f4974dxCYtsAX-9WMtS&_nc_ht=scontent.fvcp4-1.fna&oh=1d909fae9e8a6a303d14734bf46970fd&oe=61803DA3") no-repeat;
+        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://i.ibb.co/47Wc5LN/a.jpg") no-repeat;
         background-attachment: fixed;
         background-size: cover;
     
