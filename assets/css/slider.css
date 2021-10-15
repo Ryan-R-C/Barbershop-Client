@@ -14,11 +14,14 @@
     position: relative;
 }
 .carousel-slide__carousel-items{
+    align-items: center;
+    background: var(--default-black);   
+    display: flex;
     min-width: 100%;
-    object-position: center;    
 }
 .carousel-items__image{
-    width: 100%;
+    margin: auto;
+    min-width: 50%;
 }
 .carousel-container__carousel-slide{
     display: flex;
@@ -33,14 +36,14 @@
     transform: translateY(-50%);
 }
 #nextBtn, #prevBtn{
-    color: rgba(0, 0, 0, 0.646);
-    background: none;
+    color: var(--deafult-white);    
+    background: none; 
     border: none;
     cursor: pointer
 }
 #nextBtn:hover, #prevBtn:hover
 #nextBtn:focus, #prevBtn:focus{
-    color: rgb(0, 0, 0);
+    color: var(--deafult-white);
 }
 .carousel-btn-prev{
     margin-left: 0.5rem;
