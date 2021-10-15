@@ -21,6 +21,8 @@
         display: flex;
         position: fixed;
         flex-direction: column;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
         margin: 0 auto;
         top: 0;
         z-index: 99;
