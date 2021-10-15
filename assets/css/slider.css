@@ -8,7 +8,7 @@
 
 .carousel-container{
     width: 100%;
-    max-height: calc(100vh - 50px);
+    height: 100vh;
     margin: auto 0;
     overflow: hidden;
     position: relative;
@@ -20,6 +20,8 @@
     min-width: 100%;
 }
 .carousel-items__image{
+    height: 100vh;
+    object-fit: contain;
     margin: auto;
     min-width: 50%;
 }
