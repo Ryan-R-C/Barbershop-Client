@@ -47,4 +47,13 @@
     .nav-list--active{
         transform: translateX(0%);
     }
+    .fab--white{
+        color: var(--deafult-white);
+        font-size: 1.5rem;
+    }
+    .responsive-navbar__nav-list__list-el--social-links{
+        justify-content: space-evenly;
+        display: flex;
+        width: 100%;
+    }
 }
